@@ -1,0 +1,6 @@
+[submodule "themes/pelican-mockingbird"]
+	path = themes/pelican-mockingbird
+	url = git://github.com/wrl/pelican-mockingbird.git
+[submodule "vnstat-pelican-control"]
+	path = vnstat-pelican-control
+	url = git://github.com/spookey/vnstat-pelican-control.git

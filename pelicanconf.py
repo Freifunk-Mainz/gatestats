@@ -2,15 +2,17 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Antennenkind'
-SITENAME = 'Gate Status'
-SITEURL = 'http://gatestatus.der-beweis.de'
+AUTHOR = 'antennenkind'
+SITENAME = 'gatestats'
+SITEURL = 'http://gatestats.freifunk-wiesbaden.de'
 
 TIMEZONE = 'Europe/Berlin'
 
 DEFAULT_LANG = 'en'
 
 THEME = 'themes/pelican-mockingbird'
+
+RELATIVE_URLS = False
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -28,6 +30,3 @@ SOCIAL = (
     )
 
 DEFAULT_PAGINATION = False
-
-# Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = False

@@ -1,0 +1,34 @@
+{
+    "Gate05": {
+        "commands": [
+            "uptime",
+            "vnstat"
+        ],
+        "file_path": "/home/monitor/stats",
+        "graph_devices": [
+            "eth0"
+        ],
+        "ssh_host": "ns3095578.ip-94-23-58.eu",
+        "ssh_identity": "gate05_monitor_rsa",
+        "ssh_user": "monitor",
+        "ssh_port": "22"
+    },
+    "Mettigel": {
+        "commands": [
+            "uptime",
+            "vnstat"
+        ],
+        "file_path": "/home/monitor/stats",
+        "graph_devices": [
+            "eth0",
+            "bat0",
+            "mullvad",
+            "ffmz-mesh-vpn",
+            "br-ffmz"
+        ],
+        "ssh_host": "v22014011989216526.yourvserver.net",
+        "ssh_identity": "mettigel_monitor_rsa",
+        "ssh_user": "monitor",
+        "ssh_port": "22"
+    }
+}

@@ -6,7 +6,7 @@ See it in action [here](http://gatestats.freifunk-wiesbaden.de/).
 
 See [vnstat-pelican-control](https://github.com/spookey/vnstat-pelican-control) for a list of command-line flags and how to use them.
 
-* install and setup vnstat correctly at your gateway
+* install and setup vnstat correctly at your gateway ([ArchLinux wiki article](https://wiki.archlinux.org/index.php/Vnstat))
 * create a passwordless ssh-key for your gateway
 * place it in `~/.ssh/` on your webserver
 * clone this repo to your webserver
